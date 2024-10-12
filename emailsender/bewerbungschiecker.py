@@ -58,14 +58,21 @@ if __name__ == "__main__":
     excel_file = r'E:\Vscode\pythonpj\pythonpj1\email_list.xlsx'  # Use raw string for file path
     email_list = load_emails_from_excel(excel_file)
 
-    subject = "Test Email with Attachments"
-    body = "This is a test email sent from a Python script with multiple attachments."
+    subject = "Bewerbung für Schnupperlehre als Montage-Elektroniker"
+    
+    # Multi-line email body
+    body = """Sehr geehrte Damen und Herren,
 
-    # List of PDF file paths
+Anbei erhalten Sie meine Bewerbungsunterlagen für eine Schnupperlehre als Montage-Elektroniker in Ihrem Unternehmen. Ich freue mich sehr darauf, eine Schnupperlehre in Ihrem Unternehmen zu machen.
+
+Mit Freundlichen Grüssen,
+dein name
+"""
+
+    # List of PDF file paths (optional)
     pdf_file_paths = [
         r'E:\Vscode\pythonpj\pythonpj1\file1.pdf',  # Update with your PDF file paths
         r'E:\Vscode\pythonpj\pythonpj1\file2.pdf',
-        r'E:\Vscode\pythonpj\pythonpj1\file3.pdf',
     ]
 
     for email in email_list:
