@@ -24,7 +24,7 @@ This repository contains a sophisticated simulation of an info stealer designed 
 1. Clone the Repository:
 
    ```sh
-   git clone https://github.com/yourusername/ultimate-info-stealer-simulation.git
+   git clone https://github.com/mahdictf/pythonpj.git
    cd ultimate-info-stealer-simulation
    ```
 
